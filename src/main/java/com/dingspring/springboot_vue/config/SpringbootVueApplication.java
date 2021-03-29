@@ -1,5 +1,6 @@
 package com.dingspring.springboot_vue.config;
 
+import com.mysql.cj.x.protobuf.MysqlxDatatypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -17,5 +18,4 @@ public class SpringbootVueApplication {
         log.info("启动成功");
         log.info("地址：\thttp://127.0.0.1:{}",env.getProperty("server.port"));
     }
-
 }
