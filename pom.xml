@@ -57,8 +57,11 @@
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
                 <version>1.4.0</version>
                 <configuration>
+                    <!--配置文件路径 -->
                     <configurationFile>src/main/resources/generator/generator-config.xml</configurationFile>
+                    <!--重复生成时覆盖原来的文件 -->
                     <overwrite>true</overwrite>
+                    <!--控制台打印日志 -->
                     <verbose>true</verbose>
                 </configuration>
                 <dependencies>
