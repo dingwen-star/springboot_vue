@@ -40,8 +40,8 @@
                              targetPackage="com.dingspring.springboot_vue.mapper"
                              type="XMLMAPPER"/>
         <!--生成对应表及类名-->
-        <table tableName="demo" domainObjectName="Demo"/>
-        <!--<table tableName="ebook"/>-->
+        <!--<table tableName="demo" domainObjectName="Demo"/>-->
+        <table tableName="ebook"/>
         <!--<table tableName="category"/>-->
         <!--<table tableName="doc"/>-->
         <!--<table tableName="content"/>-->
